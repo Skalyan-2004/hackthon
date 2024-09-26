@@ -1,0 +1,130 @@
+/* Container code starts from here */
+.container{
+
+}
+
+/*section 1 code starts from here */
+#section1{
+    display: flex;
+}
+#header{
+    width: 100%;
+    height:10vh;
+    background-color: blueviolet;
+    display:flex;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content:center;
+    position: relative;
+
+}
+#headerlogo {
+    position: absolute;
+    left: 0; 
+    max-width: 50px; 
+    height: auto;
+}
+#s1h1{
+    color: white;
+    font-family: monospace;
+    font-size: 24px;
+
+}
+
+/* section 1 code end here */ 
+
+/* section 2 code starts from here */
+#section2{
+    margin-top:0.5rem;
+    display: flex;
+    gap:2rem;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100%;
+    background-color: #C4D7FF;
+}
+
+#img-container{
+    height: 50vh;
+    width: 40%;
+    border:dotted solid black;
+    background-color: #FFD7C4;
+}
+#content-container{
+    height: 50vh;
+    width:50%;
+    border:dotted solid black;
+    background-color:#EDE8DC;
+
+}
+
+/* section 2 code ends from here */
+
+
+/* section 3 code starts from here */
+
+#section3{
+    margin-top:0.5rem;
+    display: flex;
+    gap:0.5rem;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100%;
+    background-color: #FFD7C4;
+
+}
+#transport{
+    height: 50vh;
+    width:45%;
+    border:dotted solid black;
+    background-color:#EDE8DC;
+
+}
+
+#famous{
+    height: 50vh;
+    width:45%;
+    border:dotted solid black;
+    background-color:#EDE8DC;
+}
+
+
+/* section 3 code ends here */
+
+
+/* section4 code starts from here */
+#section4{
+    margin-top: 0.5rem;
+}
+#gallary{
+    
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #A594F9;
+}
+/* section4 code ends here */
+
+/* section5 code starts from here */
+#section5{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+#loc{
+    height: 50vh;
+    width: 45%;
+    background-color:red;
+}
+
+#contact{
+    height: 50vh;
+    width: 45%;
+    background-color: gray;
+}
+
+/* section5 code ends here */
+
+/* Container code ends here */
