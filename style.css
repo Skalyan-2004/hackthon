@@ -1,6 +1,6 @@
 /* Container code starts from here */
 .container{
-
+     margin: 0 auto;
 }
 
 /*section 1 code starts from here */
@@ -127,4 +127,64 @@
 
 /* section5 code ends here */
 
+/* Responsive styles for smartphones */
+@media (max-width: 768px) {
+    /* Adjust sections for smaller screens */
+    #section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #headerlogo {
+        position: relative;
+        max-width: 40px;
+    }
+
+    #s1h1 {
+        font-size: 18px;
+    }
+
+    /* Stack section 2 elements */
+    #section2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #img-container, #content-container {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    /* Stack section 3 elements */
+    #section3 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #transport, #famous {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    /* Adjust gallery for mobile */
+    #gallary {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    /* Stack section 5 elements */
+    #section5 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #loc, #contact {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
 /* Container code ends here */
